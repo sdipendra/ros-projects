@@ -1,0 +1,5 @@
+<launch>
+        <node pkg="rosserial_python" name="serial_node" args="/dev/ttyACM1" type="serial_node.py"/>
+        <node pkg="urg_node" name="urg_node" type="urg_node"/>
+        <node pkg="obstacle_avoidance" name="laserscan_to_clearance_vector_node" type="laserscan_to_clearance_vector_node"/>
+</launch>

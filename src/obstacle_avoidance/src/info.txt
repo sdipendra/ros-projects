@@ -1,0 +1,7 @@
+ranges array indexes for useful data : 44-725
+ranges array index for 0 angle : 384
+angle_min:-2.356194 - 0
+angle_max:2.092350 - 725
+angle_increment:0.006136
+low iterator : 341
+high iterator : 341

@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="path_follower" name="path_follower_node" type="path_follower_node"/>
+	<!--node pkg="path_follower" name="urg_node" type="urg_node"/-->
+	<!--node pkg="path_follower" name="laserscan_to_clearance_vector_node" type="laserscan_to_clearance_vector_node"/-->
+</launch>
